@@ -7,7 +7,7 @@ namespace makecodeTest {
      */
     //% block="count to 20"
     export function count_to_20(): void {
-        for (let i = 0; i < 0; i++) {
+        for (let i = 0; i < 20; i++) {
             player.execute("say " + i);
         }
     }
